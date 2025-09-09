@@ -14,12 +14,16 @@
 }
 
 .background {
-  background-image: url('./public/tempbg.jpg');
+  background-image: url('./tempbg.jpg');
   background-size: cover;
   background-position: center;
   min-height: 100vh;
   min-width: 100vw;
   image-resolution: 100%;
+}
+
+.background h1 {
+  margin: 0;
 }
 
 a {
