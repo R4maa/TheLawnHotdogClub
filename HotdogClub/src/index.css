@@ -13,6 +13,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.background {
+  background-image: url('./public/tempbg.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  image-resolution: 100%;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
