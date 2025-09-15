@@ -1,4 +1,4 @@
-import './App.css'
+import './css/App.css'
 import Feed from './Feed.tsx'
 
 function App() {
@@ -6,10 +6,17 @@ function App() {
     <>
       <div className='background'>
         <img className='logo' src='TheLawnLogo.png'></img>
-        <div className='feedbox'>
-          <h1>Welcome to The Lawn Hotdog Club!</h1>
-          <p>More to come soon!</p>
-          <Feed />
+        <div className='flexbox'>
+          <div className='feedbg'>
+            <h1>Welcome to The Lawn Hotdog Club!</h1>
+            <div style={{margin: "px"}}>
+              <h2>@ Towers 1</h2>
+              <h3>Room 718</h3>
+            </div>
+
+            <Feed />
+          
+          </div>
         </div>
       </div>
     </>

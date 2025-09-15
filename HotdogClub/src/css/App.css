@@ -17,17 +17,8 @@
   filter: drop-shadow(0 0 2em #d30000aa);
 }
 
-@keyframes dog-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .background {
-  background-image: url('assets/woodbg.jpg');
+  background-image: url('../assets/woodbg.jpg');
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -35,11 +26,22 @@
   image-resolution: 100%;
 }
 
-.background h1 {
+.background h1, h2, h3 {
   margin: 0;
 }
 
-.feedbox {
-  background-color: green;
+.flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.feedbg {
+  width: 70%;
   padding: 10px;
+  
+  background-color: green;
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
