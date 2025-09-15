@@ -11,10 +11,10 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #db0000d8);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #d30000aa);
 }
 
 @keyframes dog-spin {
@@ -26,4 +26,20 @@
   }
 }
 
+.background {
+  background-image: url('assets/woodbg.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  image-resolution: 100%;
+}
 
+.background h1 {
+  margin: 0;
+}
+
+.feedbox {
+  background-color: green;
+  padding: 10px;
+}
