@@ -4,7 +4,7 @@ import { postList } from './posts';
 function Feed() {
   return (
   <>
-    <div>
+    <div className='postMngr'>
         <Post postIndex={1}/>
         <Post postIndex={0}/>
     </div>
@@ -22,13 +22,22 @@ function Post( {postIndex} : {postIndex:any} ) {
     <>
       <div className='postList'>  
         <div className='post'>
-          <img src={post.img}></img>
+            <div className='title'>
+              <h2>{post.title}</h2>
+              <div className='timeDate'>
+                <p>Event Date: <b>{post.date}</b></p>
+                <p>Time: <b>{post.time}</b></p>
+              </div>
+            </div>
           <div className='postInfo'>
-            <h3>{post.title}</h3>
-            <p>{post.date}</p>
-            <p>{post.desc}</p>
+            <p style={{ whiteSpace: "pre-line" }}>
+              {post.desc}
+            </p>
           </div>
         </div>
+          <div className='imageBar'>
+            <img src={post.img}></img>
+          </div>
       </div>
     </>
   )

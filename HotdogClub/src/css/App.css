@@ -24,6 +24,7 @@
   min-height: 100vh;
   min-width: 100vw;
   image-resolution: 100%;
+  background-repeat: repeat;
 }
 
 .background h1, h2, h3 {
@@ -37,11 +38,18 @@
 
 .feedbg {
   width: 70%;
+  height: 100vh;
   padding: 10px;
   
-  background-color: green;
+  /* background-color: green; */
+  background-image: url('../assets/grass.jpg');
   
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
+
+  margin-bottom: 100px;
+
+  border-style: hidden;
+  border-radius: 10px;
 }
