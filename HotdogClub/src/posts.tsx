@@ -9,7 +9,7 @@ export const postList = [{
 }, {
   
     title:'The Lawn: Doubles Ping Pong Tournament',
-    date:'1/1/2000',
+    date:'TBD',
     time:'TBD',
     img:'',
     desc:'Doubles Tournament!\nAll welcome!\nWinner gets awesome trophy :)\nRegister Down Below! Last date to register is TBD.',
