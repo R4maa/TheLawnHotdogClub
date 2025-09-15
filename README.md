@@ -2,5 +2,3 @@
 
 Learn about "The Lawn" at UCF Towers 1.
 We host random events open to all!
-
-((https://r4maa.github.io/TheLawnHotdogClub/TheLawnLogo.png))
