@@ -7,6 +7,13 @@ export const postList = [{
     desc:''
 
 }, {
+
+    title:'The Arrival of Charlie.',
+    date:'9/21/25',
+    time:'All Day!',
+    img:'./src/assets/charlie.jpg'
+
+}, {
   
     title:'The Lawn: Doubles Ping Pong Tournament',
     date:'TBD',
