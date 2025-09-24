@@ -6,7 +6,6 @@ function Feed() {
   <>
     <div className='postMngr'>
         <Post postIndex={2}/>
-        <Post postIndex={1}/>
         <Post postIndex={0}/>
     </div>
   </>
